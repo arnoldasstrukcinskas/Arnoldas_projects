@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Project</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <div id="logo">
+        <img src="https://i.imgur.com/rqepuYS.png" alt="Ferrari logo"></div>
+        <div id="logoText">
+      <h1 id="title">Scuderia Ferrari</h1></br>
+      <p id="description">This is my first project in freeCodeCamp based on Ferrari theme.</br> Ferrari Survey </p>
+      </div>
+      <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Write your name: </label><input id="name" type="text" required placeholder="Name"/>
+        <label id="email-label" for="email"> Write yuor email: </label><input id="email" type="email" required placeholder="@"/>
+        <label id="number-label" for="number">Write yuor phone number: </label><input id="number" type="number"/min="10" max="100" placeholder="+370..................">
+        <label> Which Ferrari color you liek the most? </label></br>
+        <select id="dropdown">
+          <option>Yellow</option>
+          <option>Red</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>Which models do you like the most?</legend>
+          <label><input type="radio" name="radio-button" value="modern" checked/>Modern age</br></label>
+          <label><input type="radio" name="radio-button" value="vintage"/>Vintage</label>
+          </fieldset>
+          <fieldset>
+            <legend>Which of Ferrari's you like the most?</legend>
+              <label><input type="checkbox" value="testarossa"/>Ferrari Testa Rossa</label></br>
+              <label><input type="checkbox" value="f40"/>Ferrari F40</label></br>
+              <label><input type="checkbox" value="250GTO"/>Ferrari 250GTO</label></br>
+              <label><input type="checkbox" value="laferraria"/>Ferrari La Ferrari</label></br>
+              <label><input type="checkbox" value="enzo"/>Ferrari Enzo</label></br>
+              <label><input type="checkbox" value="458italia"/>Ferrari 458 Italia</label></br>
+              <label><input type="checkbox" value="360modena"/>Ferrari 360 modena</label></br>
+              <label><input type="checkbox" value="f50"/>Ferrari F50</label></br>
+              <label><input type="checkbox" value="california">Ferrari California</label></br>
+              <label id="comment">Please leave a comment or message <textarea></textarea></label>
+            </fieldset>
+            <input id="submit" type="submit" value="Submit">
+        </form>
+      </body>
+  </html>
